@@ -1,0 +1,7 @@
+// File > New > Other > Java > Java Run > Debug > Scrapbook Page
+
+// Ejemplo de expresiones regulares
+
+System.out.println("Coincide: " + new String("0123").matches("[0-9]+"))
+
+System.out.println("Coincide: " + new String("01x3").matches("[0-9]+"))
